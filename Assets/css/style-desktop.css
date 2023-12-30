@@ -1,0 +1,161 @@
+.container {
+    width: 100%;
+}
+
+header {
+    background-color: black;
+}
+
+header img {
+    width: 8em;
+    margin: 1em 2em;
+}
+
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+
+body h1 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0.2em;
+}
+
+.prima {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    padding: 5em;
+    text-align: center;
+}
+
+.prima p,
+.seconda p,
+.terza {
+    padding-bottom: 1em;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #f04c2f;
+    border: none;
+    border-radius: 0.4em;
+    padding: 1.2em 2.4em;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 0.5em;
+}
+
+.seconda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.imgTonda {
+    height: 17.5em;
+    width: 17.5em;
+    margin-right: 1.5em;
+    background-image: url(../images/notebook.jpg);
+    background-position: center;
+    border-radius: 10em;
+}
+
+.terza {
+    background-color: #e22d0e;
+    color: white;
+    text-align: center;
+    padding: 2.5em;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: white;
+    padding-bottom: 0.8em;
+}
+
+blockquote {
+    font-style: italic;
+    margin-bottom: 1.2em;
+}
+
+figcaption>p {
+    font-size: 1.2em;
+}
+
+figcaption p:last-child {
+    font-size: 0.8em;
+}
+
+.quarta {
+    display: flex;
+    text-align: center;
+    margin: 3em;
+    gap: 1.5em;
+}
+
+.quarta>div {
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    flex: 1 0;
+}
+
+.quarta>div>div {
+    margin: 1em;
+}
+
+.quarta div img {
+    height: 300px;
+    width: 100%;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 1em;
+}
+
+.quarta p {
+    margin: 0.1em;
+    padding-bottom: 1em;
+}
+
+footer {
+    padding: 2.4em 25em;
+}
+
+footer,
+a {
+    background-color: #25a2c3;
+    color: white;
+    text-align: center;
+}
+
+footer p:nth-child(3) {
+    padding-bottom: 1.2em;
+}
+
+footer p:last-child {
+    border-top: 1px solid white;
+    padding-top: 1.2em;
+}
